@@ -1,0 +1,10 @@
+@import 'variables';
+ @mixin degradado($color1,$color2){
+    background: linear-gradient(to right,$color1,$color2);
+ }
+ @mixin boton($color1,$color2){
+        padding: 10px;
+        text-decoration: none;
+        color: $color2;
+        background: $color1;
+ }
